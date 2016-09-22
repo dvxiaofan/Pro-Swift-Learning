@@ -2,17 +2,9 @@
 
 import UIKit
 
-struct Dog: Comparable {
+struct Dog {
     var name: String
     var age: Int
-    
-    static func <(lhs: Dog, rhs: Dog) -> Bool {
-        return lhs.name > rhs.name
-    }
-    
-    static func == (lhs: Dog, rhs: Dog) -> Bool {
-        return lhs.age == rhs.age
-    }
 }
 
 let popy = Dog(name: "popy", age: 2)
@@ -21,15 +13,14 @@ let rover = Dog(name: "rover", age: 3)
 
 var  dogs = [popy, rus, rover]
 
-dogs.sort()
+let lastDog = Dog(name: "hheh", age: 7)
+dogs += [lastDog]
 
+let lastDog2 = Dog(name: "kkkkkk", age: 8)
+dogs += [lastDog2]
 
+//print(dogs)
 
-
-
-
-
-
-
-
-
+if let dog = dogs.popLast() {
+    print(dog)
+}
