@@ -16,5 +16,5 @@ import UIKit
 
 
 func MyGreatFunction() {
-    // hello
+    // hello function
 }
