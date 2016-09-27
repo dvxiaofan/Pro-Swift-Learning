@@ -35,6 +35,16 @@ var taylor3 = PersonClass(name: "ffff", age: 222)
 taylor3.name = "rrr"
 taylor3 = PersonClass(name: "llll", age: 23)
 
+let taylor4 = PersonClass(name: "mmmmm", age: 99)
+taylor4.name = "iuiuiuiui"
+//taylor4 = PersonClass(name: "oooo", age: 9)
+
+
+
+
+
+
+
 
 
 
