@@ -29,7 +29,7 @@ var taylor1 = PersonStruct(name: "ming", age: 22)
 taylor1.name = "mingmign"
 
 let taylor2 = PersonStruct(name: "xiaofan", age: 45)
-//taylor2.name = "heheh"
+taylor2.name = "heheh"
 
 var taylor3 = PersonClass(name: "ffff", age: 222)
 taylor3.name = "rrr"
@@ -37,7 +37,7 @@ taylor3 = PersonClass(name: "llll", age: 23)
 
 let taylor4 = PersonClass(name: "mmmmm", age: 99)
 taylor4.name = "iuiuiuiui"
-//taylor4 = PersonClass(name: "oooo", age: 9)
+taylor4 = PersonClass(name: "oooo", age: 9)
 
 
 
