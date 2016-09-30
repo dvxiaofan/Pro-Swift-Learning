@@ -2,4 +2,24 @@
 
 import UIKit
 
-var str = "Hello, playground"
+extension Equatable {
+    func matches(array items: [Self]) -> Bool {
+        for item in items {
+            if item != self {
+                return false
+            }
+        }
+        
+        return true
+    }
+}
+
+2.matches(array: [2, 2, 2, 2, 2])
+2.matches(array: [2, 2, 2, 2, 4])
+
+
+
+
+
+
+
